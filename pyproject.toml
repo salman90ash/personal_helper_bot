@@ -16,6 +16,8 @@ selenium-screenshot = "^2.0.0"
 beautifulsoup4 = "^4.11.2"
 lxml = "^4.9.2"
 python-dotenv = "^0.21.1"
+aiogram = "^2.25"
+aioschedule = "^0.5.2"
 
 
 [build-system]

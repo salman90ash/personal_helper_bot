@@ -1,4 +1,4 @@
-from settings import EXECUTABLE_PATH, PROXY_OPTIONS, LOGIN, PASSWORD
+from wol.settings import EXECUTABLE_PATH, PROXY_OPTIONS, LOGIN, PASSWORD
 import time
 from selenium import webdriver
 from seleniumwire import webdriver

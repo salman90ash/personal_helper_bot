@@ -1,5 +1,4 @@
 *env
-*settings.py
 .idea
 *pycache*
 *.db
