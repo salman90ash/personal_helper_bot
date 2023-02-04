@@ -1,6 +1,6 @@
 from aiogram import executor
-from tg_bot.config_bot import dp
-from tg_bot.handlers import client, common
+from config_bot import dp
+from handlers import client, common
 import datetime
 
 # import asyncio
