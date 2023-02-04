@@ -1,17 +1,10 @@
 from aiogram import executor
-# from tg_bot.config_bot import dp
-from tg_bot.settings import BOT_TOKEN
-from aiogram import Bot, Dispatcher
-from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from tg_bot.config_bot import dp
 from tg_bot.handlers import client, common
 import datetime
 
 # import asyncio
 # import aioschedule as schedule
-
-my_bot = Bot(BOT_TOKEN)
-storage = MemoryStorage()
-dp = Dispatcher(my_bot, storage=storage)
 
 
 client.register_handlers_client(dp)
