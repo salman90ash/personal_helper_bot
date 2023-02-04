@@ -1,4 +1,4 @@
-from settings import BOT_TOKEN
+from tg_bot.settings import BOT_TOKEN
 from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
