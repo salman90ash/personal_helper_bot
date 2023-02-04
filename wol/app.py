@@ -9,3 +9,7 @@ def run_app():
     form_processing(webdriver=chrome)
     close_webdriver(webdriver=chrome)
     print("Salman's computer is on!")
+
+
+if __name__ == '__app__':
+    pass
