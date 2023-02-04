@@ -1,8 +1,8 @@
 import asyncio
 import datetime
 from aiogram import executor
-from bot import dp
-from handlers import client, common
+from tg_bot.bot import dp
+from tg_bot.handlers import client, common
 import aioschedule as schedule
 
 client.register_handlers_client(dp)
