@@ -2,6 +2,6 @@ from tg_bot.settings import BOT_TOKEN
 from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-bot = Bot(BOT_TOKEN)
+my_bot = Bot(BOT_TOKEN)
 storage = MemoryStorage()
-dp = Dispatcher(bot, storage=storage)
+dp = Dispatcher(my_bot, storage=storage)
