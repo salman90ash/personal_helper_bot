@@ -1,9 +1,9 @@
 from aiogram import types, Dispatcher
-import wol.app as wol
+from wol.app import run_app
 
 
 async def wake_up(message: types.Message):
-    await wol.run_app()
+    await run_app()
     await message.answer(text='answer')
     await message.delete()
 
