@@ -1,5 +1,5 @@
 from aiogram import types, Dispatcher
-from wol.app import run_app
+from ...wol.app import run_app
 
 
 async def wake_up(message: types.Message):
