@@ -1,13 +1,15 @@
 import sys
+
 sys.path.append("..")
 
 from aiogram import types, Dispatcher
 from wol.app import run_app
+from tg_bot.settings import ADMIN_ID
 
 
 async def wake_up(message: types.Message):
-    await run_app()
-    await message.answer(text='answer')
+    run_app()
+    await message.answer(text="Salman's computer is on!")
     await message.delete()
 
 

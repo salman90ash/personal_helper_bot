@@ -8,8 +8,6 @@ def run_app():
     get_page_source(webdriver=chrome, url=url)
     form_processing(webdriver=chrome)
     close_webdriver(webdriver=chrome)
-    print("Salman's computer is on!")
+    print(f"Salman's computer is on!")
 
 
-if __name__ == '__app__':
-    pass
